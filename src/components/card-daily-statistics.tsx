@@ -1,9 +1,9 @@
 import { ReactElement } from "react";
 
 interface CardStatisticsProps {
-  icon: ReactElement;
-  typeStatistic: string;
-  statistic: string;
+  icon?: ReactElement;
+  typeStatistic?: string;
+  statistic?: string;
 }
 
 export function CardDailyStatistics({
